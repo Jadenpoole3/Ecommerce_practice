@@ -19,6 +19,15 @@ export default class ContentContainer extends React.Component {
         </View>
 
 
+        <View style={styles.col2}>
+        <CustomImage imageSource={require('../images/belts.jpg')}/>
+        </View>
+
+        <View style={styles.col1}>
+        <CustomImage imageSource={require('../images/mens_shoes.jpg')}/>
+        </View>
+
+
       </View>
     );
   }
